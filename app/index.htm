@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="ninjaApp">
+    <head>
+        <title>Not Chris D'elia</title>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js" ></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.4.8/angular-route.min.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.4.8/angular-sanitize.min.js"></script>
+
+    </head>
+    
+    <body>
+        <ul id="nav">
+          <li class="active"><a href="#/about">About</a></li>
+          <li><a href="#/store">Store</a></li>
+          <li><a href="#/"><h3><strong>erickmeyer<strong></h3></a></li>
+          <li><a href="#/code">Code</a></li> 
+          <li><a href="#/projects">Projects</a></li> 
+        </ul>
+      	<ng-view></ng-view>
+    </body>
+
+    <style>
+        #nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+            height: 60px;
+            z-index: 9999;
+            padding: 0;
+            list-style: none;
+            background-color: #1d1e1e;
+            border-bottom: 1px solid #ccc;
+            border-top: 1px solid #ccc; }
+        #nav li {
+            display: inline-block;
+            text-align:center; }
+        #nav li a {
+            display: block;
+            padding: 0px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            text-align:center;
+            color: #ffffff; }
+        #nav li a:hover {
+            color: #c00;
+            text-align:center;}
+    </style>
+
+    <script src="config.js"></script>
+    <script src="controllers.js"></script>
+</html>
