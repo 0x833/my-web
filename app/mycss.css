@@ -1,0 +1,74 @@
+
+li {
+	list-style-type: none;
+	display: inline;
+	margin:0 0px;
+	border-right: 1px solid white;
+	padding: 10px 0;
+}
+
+li a {
+	color: white;
+	margin: 0 10px;
+	padding: 10px 0;	
+}
+
+li a:hover, li a:active {
+	color: #990000;
+	text-decoration: none;
+}
+
+.page-view {
+	overflow-y: none;
+}
+
+.main-nav {
+	background: #222222;
+	margin: 0 0 0 0;
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.main-nav ul {
+	margin: 0 0;
+}
+
+.page-title:hover {
+	color: #990000;
+	cursor: pointer;
+}
+
+.main-nav .page-title {
+	font-size: 2em;
+	margin: 0 50px;
+	list-style-type: none;
+}
+
+.mission-statement {
+	color: #990000;
+	background-color: #A4A4A4; 
+	padding: 10px 10px;
+	font-size: 6em;
+	font-family: "Six Caps";
+}
+
+.mission-statement .hack-text {
+	margin-left: 50px;
+	font-family: "Press Start 2P";
+}
+
+.mission-statement .awesome-text {
+	margin-left: 50px;
+}
+
+.mission-statement .go-cougs {
+	margin-left: 75px;
+	font-family: "Yellowtail";
+}
+
+.mission-statement .produce-text {
+	margin-left: 50px;
+	font-family: "Monoton";
+}
+
