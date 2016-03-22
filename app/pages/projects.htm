@@ -1,5 +1,16 @@
-<div class="container">
+<div class="container" ng-controller="projectsCtrl">
 	<div class="container-fluid">
-		Nothing here yet!
+		<p style="text-align: center; font-style: italic; margin: 50px 10px;">While completeing my degree, various assignment/projects were assigned. I thought keeping a list of previous projects would help me remember all I have done for future use in other projects.</p>
+		<table class="table table-default">
+			<caption>Project List</caption>
+			<tr>
+				<th>Name</th>
+				<th>Description</th>
+			</tr>
+			<tr ng-repeat="project in projectList">
+				<td>{{project.name}}</a></td>
+				<td>{{project.description}}</td>
+			</tr>
+		</table>
 	</div>
 </div>
