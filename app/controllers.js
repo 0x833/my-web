@@ -74,6 +74,6 @@ webApp.controller('aboutCtrl', [
 	'$scope',
 	'$log',
 	function($scope, $log){
-
+		
 	}
 ]);

@@ -1,0 +1,81 @@
+body {
+	background: url(https://images.unsplash.com/photo-1443890484047-5eaa67d1d630?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a22e577504bdb01f0edd33ac77d6b89e);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Ubuntu;
+	color: white;
+}
+
+#main-content {
+	text-align: center;
+	padding-top: 25%;
+}
+
+hr.style-one {
+    padding: 0;
+    border: none;
+    border-top: medium double white;
+    border-bottom: rgba(0,0,0,.4);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+	font-size: 6em;
+	font-weight: 700;
+	text-shadow: 0 0 12px #111111;
+}
+
+h3 {
+	font-size: 3em;
+	text-shadow: 0 0 8px #000000;
+
+}
+
+html {
+	height: 100%;
+}
+
+.follow ul li a {
+	text-shadow: 0 0 0px #000000;
+	text-decoration: none;
+}
+
+a {
+	color: white;
+	font-size: 2em;
+	text-shadow: 0 0 8px #000000;
+	
+}
+
+a:hover {
+	color: white;
+	font-size: 2em;
+	background-color: rgba(0,0,0,.2);
+	
+}
+
+li:hover {
+	text-decoration: underline;
+}
+
+
+.navbar-brand {
+	font-size: 2.5em;
+	font-weight: 800;
+	text-shadow: 0 0 2px #FFFFFF, 0px 4px 4px #000000;
+	padding-bottom: 5px;
+}
+
+table {
+	background: rgba(0,0,0,.7);
+}
+
+.navbar-header a:hover {
+	font-size: 2.5em;
+}
+
+.icon-bar {
+	width: 20px;
+	border-bottom: 2px solid white;
+}

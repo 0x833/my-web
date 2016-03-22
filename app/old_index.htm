@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="ninjaApp">
+    <head>
+        <title>Not Chris D'elia</title>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js" ></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.4.8/angular-route.min.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.4.8/angular-sanitize.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="mycss.css" />
+        <link href='https://fonts.googleapis.com/css?family=Six+Caps|Press+Start+2P|Yellowtail|Monoton' rel='stylesheet' type='text/css'>
+
+    </head>
+    
+    <body class="page-view">
+        <div class="main-nav">
+            <ul>
+                <li><a class="page-title" href="#/">erickmeyer</a></li>
+                <li><a href="#/about">About</a></li>
+                <li><a href="#/projects">Projects</a></li>
+                <li><a href="#/gallery">Gallery</a></li>
+            </ul>
+        </div>
+      	<ng-view></ng-view>
+    </body>
+
+    <script src="config.js"></script>
+    <script src="controllers.js"></script>
+</html>
