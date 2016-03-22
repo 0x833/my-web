@@ -4,10 +4,10 @@ webApp.config(['$routeProvider', function ($routeProvider) {
     'use strict';
    $routeProvider
 	   .when('/', {
-	       templateUrl: '/pages/main.htm',
+	       templateUrl: '/pages/intro.html',
 	   })
 	   .when('/about', {
-	   	   templateUrl: '/pages/about.htm',
+	   	   templateUrl: '/pages/main.htm',
 	   	   controller: 'introController'
 	   })
 	   .when('/store', {

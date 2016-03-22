@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="ninjaApp">
     <head>
-        <title>Not Chris D'elia</title>
+        <title>erickmeyer</title>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js" ></script>
 
@@ -9,21 +9,72 @@
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="https://code.angularjs.org/1.4.8/angular-route.min.js"></script>
         <script type="text/javascript" src="https://code.angularjs.org/1.4.8/angular-sanitize.min.js"></script>
-        <link type="text/css" rel="stylesheet" href="mycss.css" />
-        <link href='https://fonts.googleapis.com/css?family=Six+Caps|Press+Start+2P|Yellowtail|Monoton' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet" href="myweb.css" />
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     </head>
     
     <body class="page-view">
-        <div class="main-nav">
-            <ul>
-                <li><a class="page-title" href="#/">erickmeyer</a></li>
-                <li><a href="#/about">About</a></li>
-                <li><a href="#/projects">Projects</a></li>
-                <li><a href="#/gallery">Gallery</a></li>
-            </ul>
-        </div>
+        <nav class="navbar navbar-inverted">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#/">&lt;em/&gt;</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#/about"><i class="fa fa-binoculars"></i> About<span class="sr-only">(current)</span></a></li>
+                <li><a href="#/projects"><i class="fa fa-code"></i> Projects</a></li>
+                <li><a href="#"><i class="fa fa-camera"></i> Photos</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown follow">
+                  <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-at"></i>Follow<span class="caret"></span></a>
+                  <ul class="dropdown-menu" style="color: black; text-shadow: 0 0 0 0;">
+                    <li><a href="https://www.instagram.com/emeyer8/"><i class="fa fa-instagram"></i> emeyer8</a></li>
+                    <li><a href="https://www.facebook.com/erick.meyer.7"><i class="fa fa-facebook-square"></i> erick.meyer.7</a></li>
+                    <li><a href="https://twitter.com/roughly4gerbils"><i class="fa fa-twitter"></i> roughly4gerbils</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a data-toggle="modal" data-target="#myModal">Snapchat...</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
       	<ng-view></ng-view>
+
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title" style="color: black;">Scan the SC Ghost!</h4>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <img src="snapicon_144.png">
+                        <p style="color: black">@roughly4gerbils</p>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>  
+            </div>
+        </div>
     </body>
 
     <script src="config.js"></script>
