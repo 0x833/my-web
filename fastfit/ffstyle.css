@@ -1,4 +1,5 @@
 body {
+	padding-top: 5%;
 	background: url(model2.jpg);
 	background-size: cover;
 	background-position: center;
@@ -8,48 +9,37 @@ body {
 
 html {
 	height: 100%;
+	width: 100%;
 }
 
 h2 {
-	position: absolute;
-	top: 200px;
-	left: 0px;
-	width: 100%;
 	color: #b2b2b2;
 	font-size: 100px;
 	font-weight: 600;
 }
 
 img {
-	height: 350px;
-	width: 265px;
-	padding: 0;
-}
-
-.main {
-	float: left;
-}
-
-img .main-logo-img {
-	display: inline-block;
-	outline: 1px white solid;
-	background-color: white;
+	padding: 10px;
+	border: 3px solid #cccccc;
+	border-radius: 25px;
+	height: 140px;
+	width: 105px;
 }
 
 
-#ff-main {
-	padding-top: 15%;
+.image {
+	padding-top: 30%;
+	text-align: center;
+    width: 100%; /* for IE 6 */
+}
+
+
+#extras {
+	margin-bottom: 10%;
+	height: 100%;
 	text-align: center;
 }
 
-.wrap {
-    width: 1060px;
-    padding-left: 15%;
-    height:auto;
-    margin: auto;
-    text-align:left;
-    position:relative;
-}
 
 .fa {
 	color: #cccccc;
@@ -57,14 +47,6 @@ img .main-logo-img {
 }
 
 .main-text {
-    position: absolute;
-    margin: auto;
-    padding-left: 20%;
-    top: 0;
-    left:15%;
-    right:0;
-    bottom:0;
     color:#cccccc;
-    height:100px;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 4px #000000;
 }
